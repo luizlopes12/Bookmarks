@@ -9,7 +9,11 @@
 }
 .nav ul{
     display: flex;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 400;
     list-style: none;
+}
+.nav li{
+    display: flex;
+    justify-content: space-evenly;
 }
