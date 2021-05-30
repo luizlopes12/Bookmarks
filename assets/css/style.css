@@ -7,13 +7,28 @@
 .logo img{
     height: 45px;
 }
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
 .nav ul{
     display: flex;
-    font-size: 1.6em;
+    font-size: 1.7em;
     font-weight: 400;
     list-style: none;
+    padding: 0;
 }
 .nav li{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 5px;
+    padding: 5px 40px;
+    border-radius: 6px;
+    transition: all .2s linear;
+}
+.nav li:hover{
+    color: #ffffff;
+    border-radius: 12px;
+    background-color: #fa5757;
 }
