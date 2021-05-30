@@ -7,3 +7,9 @@
 .logo img{
     height: 45px;
 }
+.nav ul{
+    display: flex;
+    font-size: 1.4em;
+    font-weight: 400;
+    list-style: none;
+}
